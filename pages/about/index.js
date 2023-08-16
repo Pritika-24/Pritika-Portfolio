@@ -35,7 +35,7 @@ import {
 const CVDownloadButton = () => {
   const handleDownloadCV = () => {
     // Replace this with your actual file URL or API endpoint to download the CV
-    const cvURL = '/Purushothaman_Pritika.pdf';
+    const cvURL = '/Purushothaman_Pritika_.pdf';
     window.open(cvURL, '_blank');
   };
 
