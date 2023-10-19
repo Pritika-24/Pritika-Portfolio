@@ -19,6 +19,8 @@ const Contact = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
+    // If the input field is 'email', convert the value to lowercase
+    const updatedValue = name === 'email' ? value.toLowerCase() : value;
     setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
   };
 
@@ -94,6 +96,13 @@ const Contact = () => {
               className='textarea'
             ></textarea>
             {/* ... Your existing success and error message display */}
+            {isSuccessMessageVisible && (
+              <div className="text-green-500">Message sent successfully!</div>
+            )}
+
+            {isErrorMessageVisible && (
+              <div className="text-red-500">Error sending the message. Please try again.</div>
+            )}
             <button
               type='submit'
               className='btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group'

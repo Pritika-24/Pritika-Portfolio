@@ -12,6 +12,7 @@ import {
   FaJava,
   FaDownload,
   FaSave,
+  FaSnowflake,
 } from 'react-icons/fa';
 
 import {
@@ -28,6 +29,13 @@ import {
   SiPython,
   SiJavascript,
   SiCircle,
+  SiAzuredataexplorer,
+  SiMicrosoftazure,
+  SiTailwindcss,
+  SiTableau,
+  SiPowerbi,
+  SiTalend,
+  SiSalesforce,
 } from 'react-icons/si';
 
 
@@ -65,6 +73,14 @@ export const aboutData = [
         icons: [<SiPython />, <FaJava />],
       },
       {
+        title: 'Business Intelligence',
+        icons: [<SiTableau />, <SiPowerbi />, <SiTalend />],
+      },
+      {
+        title: 'Databases',
+        icons: [<SiOracle />, <SiMongodb />, <SiSqlite />, <SiMysql />, <FaSnowflake />, <SiSalesforce />],
+      },
+      {
         title: 'Web Development',
         icons: [
           <FaHtml5 />,
@@ -74,15 +90,12 @@ export const aboutData = [
           <FaReact />,
           <SiNodedotjs />,
           <SiFramer />,
+          <SiTailwindcss />,
         ],
       },
       {
         title: 'UI/UX Design',
         icons: [<FaFigma />, <SiAdobexd />, <SiSketch />, <SiAdobephotoshop />],
-      },
-      {
-        title: 'Databases',
-        icons: [<SiOracle />, <SiMongodb />, <SiSqlite />, <SiMysql />],
       },
       {
          // Conditionally render the hyphen for other items except the first one
@@ -181,20 +194,25 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-            A highly self-motivated and results-driven professional with a passion for tackling challenging environments. 
-            With a proven track record of working hard and consistently delivering high-quality results, I leverage a unique blend of analytical 
-            thinking, teamwork, and time management to ensure efficient project execution. I bring creativity and originality to my work and intend 
-            to contribute significantly to the field of software development with innovative concepts and methodologies. I'm skilled in Python, Java, 
-            SQL, MATLAB, and Unix Shell Scripting, as well as libraries and frameworks like Django, Flask, and React. 
+            A highly self-motivated and results-driven professional with a passion for tackling challenging environments. I leverage a unique blend of 
+            analytical thinking, teamwork, and time management to ensure efficient project execution whilst delivering high-quality results. Currently pursuing Masters in 
+            Information Systems at Northeastern University, I specialize in Business Analysis, Intelligence, and Data Science, 
+            extracting insights from raw data. 
             <br></br>
             <br></br>
-            In addition to having extensive 
-            knowledge of web technologies like HTML, CSS, and JavaScript, I have expertise working with databases like Oracle, MongoDB, MySQL, and 
-            SQLite. I am familiar with the cloud and have utilized AWS services like S3, EC2, and Cloud Front. I've worked with TCP/IP, FTP, HTTP, 
-            and SMTP protocols, as well as tools like GIT, JIRA, VS Code, Selenium, Jenkins, and Postman. I’m also proficient in Agile concepts, UML, 
-            and Software QA/testing techniques. I contribute adaptability and diversity to any software development role as I am proficient in 
-            various operating systems like MacOS, Windows, and Linux. I prioritize continuous personal and professional growth by actively pursuing 
-            diverse opportunities for learning and development.
+            I have strong Python and Java programming skills and a proven track record in database management with tools like Oracle, MySQL, 
+            Azure SQL, MongoDB, BigQuery and Snowflake. I'm also proficient in Business Intelligence and data integration tools such as Talend, 
+            Alteryx, Azure Data Factory, with extensive experience in data modeling using ER/Studio Data Architect. Additionally, I excel 
+            in data analytics, including SAS, and am skilled in data visualization tools like Tableau and PowerBI thereby amplifying my 
+            ability to translate data into operational intelligence.
+            <br></br>
+            <br></br>
+            With 3.5+ years of professional experience, I transitioned from a Project to a Test Engineer, enhancing project management 
+            with Jira and Confluence. My proficiency in Selenium, Jenkins, and IBM Sterling Order Management empowered me to optimize 
+            order fulfillment and customer service, resulting in efficient testing processes. This fusion of skills significantly 
+            contributed to more efficient testing processes and the seamless functionality of websites. My web development skills, 
+            including HTML, CSS, JavaScript, Next.js, Tailwind CSS, and Framer Motion, create exceptional digital experiences while 
+            advancing both academically and practically. 
           </motion.p>
           {/* counters */}
           <motion.div
