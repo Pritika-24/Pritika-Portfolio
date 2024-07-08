@@ -43,7 +43,7 @@ import {
 const CVDownloadButton = () => {
   const handleDownloadCV = () => {
     // Replace this with your actual file URL or API endpoint to download the CV
-    const cvURL = '/Purushothaman_Pritika_OG.pdf';
+    const cvURL = '/Purushothaman_Pritika_Resume 2024.pdf';
     window.open(cvURL, '_blank');
   };
 
@@ -194,24 +194,22 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'
           >
-            A highly self-motivated and results-driven professional with a passion for tackling challenging environments. I leverage a unique blend of 
-            analytical thinking, teamwork, and time management to ensure efficient project execution whilst delivering high-quality results. Currently pursuing Masters in 
-            Information Systems at Northeastern University, I specialize in Business Intelligence, Analysis, and Data Science. 
+            Hello! I'm a versatile engineer with a knack for blending technical expertise and a keen sense of customer needs. 
+            My passion lies in crafting products that meet rigorous technical standards and drive significant business growth.
+            <br></br>
+
+            <br></br>
+
+            With over 4+ years of professional experience, I started my career as a Project Engineer, transitioned to a Test Engineer, and am now excelling as a Technical Delivery Manager. 
+            I lead talented teams, coordinate cross-functional efforts, and incorporate various SDLC methodologies to achieve strategic business objectives. 
+            Building strong vendor relationships and driving value-driven project delivery are my key strengths.
             
             <br></br>
-            I have strong Python and Java programming skills and database management tools like Oracle, MySQL, 
-            Azure SQL, MongoDB, BigQuery and Snowflake. I'm also proficient data integration tools such as Talend, 
-            Alteryx, Azure Data Factory, with experience in data modeling using ER/Studio Data Architect. I also excel 
-            in data analytics, including SAS, and am skilled in data visualization tools like Tableau and PowerBI which amplifies my 
-            ability to translate data into Operational Intelligence.
-           
-            <br></br>
-            With 3.5+ years of experience as a Project Engineer, I enhanced my Project Management abilities
-            with Jira and Confluence. My proficiency in Selenium, Jenkins, and IBM Sterling Order Management empowered me to optimize 
-            order fulfillment and customer service. This fusion of skills significantly 
-            contributed to more efficient testing processes and the seamless functionality of websites. My web development skills, 
-            including HTML, CSS, JavaScript, Next.js, Tailwind CSS, and Framer Motion, drive me to create exceptional digital 
-            experiences while continually advancing my abilities in both academic and practical domains.
+            I'm well-versed in Business Intelligence, data integration and database management. My extensive experience in data modeling has fortified a strong foundation for mastering SAS and 
+            excelling in the field of data analytics. Moreover, I possess a commanding grasp of data visualization tools as well which amplifies my ability to translate data into operational intelligence. 
+            My dedication to this dynamic field is complemented by my proficiency in building websites using modern front-end technologies for streamlined responsive design with interactive animations and motion. 
+            This holistic approach drives me to create exceptional digital experiences while continually advancing my abilities in both academic and practical domains.
+
           </motion.p>
           {/* counters */}
           <motion.div
